@@ -1,9 +1,8 @@
 # dit-assignment2
 ## for running a server
-## pip install flask
-## python server.py
-
-
+1. pip install flask
+2. python server.py
+<pre><code>
     Available API endpoints:
     GET /containers                     List all containers
     GET /containers?state=running      List running containers (only)
@@ -16,5 +15,4 @@
     DELETE /containers/<id>             Delete a specific container
     DELETE /containers                  Delete all containers (including running)
     DELETE /images/<id>                 Delete a specific image        DELETE /images                      Delete all images
-    
-    
+</code></pre>
